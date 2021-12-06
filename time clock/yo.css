@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	display: grid;
+	height: 100%;
+	place-items: center;
+	margin-top: 25%;
+	background: black;
+
+}
+
+.wraper{
+	height: 100px;
+	width: 360px;
+	background-image: linear-gradient(red, yellow, green);
+	border-radius: 10px;
+	transform: translate(10px);
+	  animation: animate 1.5s linear infinite;
+}
+.wraper .display{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: black;
+	height: 85px;
+	width: 345px;
+	z-index: 999;
+
+}
+.wraper .display #time{
+	height: 85px;
+	color: white;
+	font-size: 50px;
+	font-weight:600 ;
+	padding: 20px;
+	letter-spacing: 1px;
+	  
+
+}
